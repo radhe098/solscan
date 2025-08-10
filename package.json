@@ -1,6 +1,6 @@
 {
   "name": "solscan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Download verified Ethereum smart contracts from Etherscan by address.",
   "main": "index.js",
   "bin": {
