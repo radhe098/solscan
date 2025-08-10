@@ -1,22 +1,24 @@
-# SOLSCAN  
-### Download Solidity smart contracts from Etherscan **or** Immunefi bounty scopes
-## Features
-- zero friction
-- Retrieve verified Solidity contract source code from **Etherscan**  
-- Retrieve bounty scope JSON from **Immunefi**  
-- Well-structured extraction and saving  
-- 99% accuracy in extraction  
-- Auto-detects whether input is an Immunefi URL or Ethereum contract address  
-- `--help` option to view usage instructions  
-- API required ❌  
-- dependencies required ❌ 
+# 🔍 SOLSCAN  
+### ⚡ Download Solidity smart contracts from **Etherscan** or bounty scopes from **Immunefi**
 
 ---
 
-## Installation
+## ✨ Features
+- 🚀 **Zero friction** — just paste the address or URL  
+- 📜 Retrieve verified Solidity contract source code from **Etherscan**  
+- 🛡 Retrieve bounty scope JSON from **Immunefi**  
+- 📂 Well-structured extraction and saving  
+- 🎯 99% accuracy in extraction  
+- 🧠 Auto-detects whether input is an Immunefi URL or Ethereum contract address  
+- 🆘 `--help` option to view usage instructions  
+- ❌ **No API key required**  
+- ❌ **No extra dependencies to install manually**  
+
+---
+
+## 📦 Installation
 ```bash
 npm i solscan
-```
 
 ## Examples
 
@@ -31,10 +33,9 @@ solscan 0xDaB5dc22350f9a6Aff03Cf3D9341aAD0ba42d2a6
 solscan --help
 ```
 
-Replace `<contract_address>` with the Ethereum contract address you want to fetch.
 
 
-## Dependencies
+## 🛑Dependencies
 No dependencies needed.
 
 ## Author
