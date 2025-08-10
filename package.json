@@ -1,0 +1,26 @@
+{
+  "name": "solscan",
+  "version": "1.0.3",
+  "description": "Download verified Ethereum smart contracts from Etherscan by address.",
+  "main": "index.js",
+  "bin": {
+    "solscan": "index.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "etherscan",
+    "solidity",
+    "smart-contract",
+    "download",
+    "cli"
+  ],
+  "author": "radhe098",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.0"
+  }
+}
